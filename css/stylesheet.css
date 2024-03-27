@@ -443,11 +443,7 @@ h3{
 }
 @media screen and (min-width: 1279px){
     
-    .comptwo{
-        position: relative;
-    }.mobilehome{
-        display: none;
-    }
+  
     h1{
         position: relative;
         font-family: sinete, sans-serif;
