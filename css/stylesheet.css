@@ -1,0 +1,541 @@
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-color: #e6e7e5;
+    background-image:url("../images/silk.png")
+}
+.comptwo{
+    display: none;
+}
+h1{
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;
+    font-size: 100px;
+    text-decoration: none;
+    left: 75px;
+    top: -615px;
+}
+.topnav{
+    left: 110px;
+    top: -1070px;
+    color: #D22D00;
+    font-size: 50px;
+}
+
+h2{
+    font-family: sinete, sans-serif;
+    position: relative;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration: none;
+    left: 110px;
+    top: -1000px;
+}
+h2 a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+.topnav{
+    display: none;
+}
+
+.red{
+    background-size:100%;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+    top: -700px;
+    width:500px;
+    overflow-x: hidden;
+}
+h3{
+    font-size: 40px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #080000;   
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    top: -870px;
+    left: 10px;
+}
+
+.piano-one{
+    position: relative;
+    margin: 40px;
+    left: -710px;
+    top: -1155px;
+    width: 480px;
+}
+.one{
+    font-size: 50px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 10px;
+    top: -1150px; 
+}
+.two{
+    font-size: 25px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 25px;
+    top: -1150px;  
+}
+.piano-two{
+    position: relative;
+    margin: 40px;
+    left: -710px;
+    top: -1500px;  
+}
+.three{
+    font-size: 50px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1450px; 
+}
+.four{
+    font-size: 25px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1400px; 
+}
+.piano-three{
+    position: relative;
+    margin: 40px;
+    left: -710px;
+    top: -1780px; 
+}
+.five{
+    font-size: 40px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1780px; 
+}
+.six{
+    font-size: 30px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1780px; 
+}
+.piano-four{
+    position: relative;
+    margin: 40px;
+    left: -710px;
+    top: -2150px;
+}
+.seven{
+    font-size: 35px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -2150px;
+}
+.eight{
+    font-size: 30px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -2150px;
+}
+.grey{
+    position: relative;
+    margin: 40px;
+    left: -710px;
+    top: -2150px;
+    height: 10px;
+}
+.encore{
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: none;
+    margin: 40px;
+    left: 40px;
+    top: -2150px;
+}
+.encore a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+.contact{
+    font-size: 35px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -2150px;
+}
+
+.phone{
+    font-size: 20px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -2125px;
+}
+
+.email{
+    font-size: 20px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -2100px;
+}
+
+.subscribe{
+    font-size: 30px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 190px;
+    top: -2300px;   
+}
+
+.subscribe a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+
+.newsletter{
+    font-size: 30px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 190px;
+    top: -2300px;   
+}
+
+.newsletter a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        background-color: #e6e7e5;
+        background-image:url("../images/tabletsilk.png")
+    }
+    .comptwo{
+        display: none;
+    }
+    h1{
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00;
+        font-size: 100px;
+        text-decoration: none;
+        left: 75px;
+        top: -615px;
+    }
+    .topnav ul li{
+        color: #D22D00; 
+        font-size: 40px;
+        list-style-type: none;
+        font-family:madelinette, sans-serif;
+        float: right;
+        text-decoration: none;
+        top: -600px;
+    }    
+    
+    .topnav ul li a{
+        color: #D22D00; 
+        text-decoration: none;
+        position: relative;
+        left: -110px;
+        top: -600px;
+        margin: 15px;
+    }
+    .red{
+        background-size:100%;
+        position: relative;
+        background-size: cover;
+        margin: 0;
+        top: -700px;
+        left: -10px;
+        width:500px;
+        height: 150px;
+        overflow-x: hidden;
+    }
+    h3{
+        font-size: 40px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #080000;   
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        top: -840px;
+        left: 10px;
+    }
+    .one{
+        font-size: 40px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: -30px;
+        top: -1150px; 
+    }
+    .three{
+        font-size: 50px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: -20px;
+        top: -1450px; 
+    }
+    .four{
+        font-size: 25px;
+        position: relative;
+        font-family: the-seasons, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: #c9c9c8;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: 30px;
+        top: -1450px; 
+    }
+    .five{
+        font-size: 30px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: -20px;
+        top: -1780px; 
+    }
+    .six{
+        font-size: 20px;
+        position: relative;
+        font-family: the-seasons, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: #c9c9c8;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: 20px;
+        top: -1780px; 
+    }
+    .seven{
+        font-size: 30px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: -35px;
+        top: -2150px;
+    }
+    .eight{
+        font-size: 20px;
+        position: relative;
+        font-family: the-seasons, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: #c9c9c8;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: 15px;
+        top: -2150px;
+    }
+}
+@media screen and (min-width: 1279px){
+    
+    .comptwo{
+        position: relative;
+    }.mobilehome{
+        display: none;
+    }
+    h1{
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00; 
+        font-weight: 400;
+        font-style: normal;
+        font-size: 200px;
+        text-decoration: none;
+        left: 300px;
+        top: -530px;
+    }
+    
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        background-color: #e6e7e5;
+        background-image:url("../images/silk.png")
+    }
+    h1{
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #D22D00; 
+        font-weight: 400;
+        font-style: normal;
+        font-size: 180px;
+        text-decoration: none;
+        left: 290px;
+        top: -940px;
+    }
+    
+    .topnav ul li{
+        position: relative;
+        color: #D22D00; 
+        font-size: 30px;
+        list-style-type: none;
+        font-family: sinete, sans-serif;
+        float: right;
+    }    
+    .topnav ul li a{
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        top: -1470px;
+        right: 310px;
+        margin: 50px;
+    
+    }
+    h2{
+        font-family: sinete, sans-serif;
+        position: relative;
+        color: #D22D00; 
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        text-decoration: none;
+        left: 420px;
+        top: -1580px;
+    }
+    h2 a{
+        color: #D22D00;  
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+    
+    }
+    .red{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100%;
+        position: relative;
+        background-size: cover;
+        margin: 0;
+        top: -1100px;
+    }
+    h3{
+        font-size: 100px;
+        position: relative;
+        font-family: sinete, sans-serif;
+        color: #080000;   
+        text-decoration: none;
+        position: relative;
+        margin: 40px;
+        left: 160px;
+        top: -1010px;
+    }
+    }
+
+    
