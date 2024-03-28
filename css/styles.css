@@ -1,0 +1,711 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-image: url('../images/silk.png');
+
+}
+
+/* HEADER */
+
+header {
+    min-height: 120px;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+/* NAV */
+label {
+    color: white;
+    cursor: pointer;
+}
+
+/* Hide the menu */
+.menu {
+    display: none;
+}
+
+#hamburger-check:checked ~.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle:checked{
+    display: block;
+}
+/* style for menu */
+.menu{
+    color: #D22D00;
+    font-size: 20px;
+    font-family: sinete, sans-serif;
+}
+.menu a{
+    color: #D22D00;
+    text-decoration: none;
+
+}
+
+/* MAIN */
+.hero {
+    height: 600px;
+    background-image: url('../images/heropianotwo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    /* outline: 1px solid red; */
+    font-family: sinete, sans-serif;
+    color: #D22D00;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0,.4);
+    padding: 8% 4%;
+    font-size: 100px;
+}
+/* encore link; */
+h2{
+    font-family: sinete, sans-serif;
+    position: relative;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration: none;
+    top:  -680px;
+    left: 110px;
+}
+h2 a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+/* red banner; */
+.red{
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    overflow-x: hidden;
+    top: -60px;
+}
+/* red banner text; */
+h3{
+    font-size: 40px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #080000;   
+    text-decoration: none;
+    position: relative;
+    top: -230px;
+    left: 55px;
+}
+/* piano image one; */
+.piano-one{
+    position: relative;
+    width: 900px;
+    top: -225px;
+    left: -210px;
+}
+/* learn piano and info; */
+.one{
+    font-size: 50px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 20px;
+    top: -450px;
+}
+.two{
+    font-size: 25px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 25px;
+    top: -450px;
+}
+/* piano image 2; */
+.piano-two{
+    position: relative;
+    margin: 40px;
+    width: 1000px;
+    top: -380px;
+    left: -290px;
+}
+/* grades and info; */
+.three{
+    font-size: 50px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 60px;
+    top: -800px;
+}
+.four{
+    font-size: 25px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -800px;
+}
+/* piano four; */
+.piano-three{
+    position: relative;
+    margin: 40px;
+    width: 1000px;
+    top: -570px;
+    left: -290px;
+}
+/* sheet music info; */
+
+.five{
+    font-size: 40px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1150px;
+}
+.six{
+    font-size: 30px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 15px;
+    top: -1150px;
+}
+/* piano four; */
+.piano-four{
+    position: relative;
+    margin: 40px;
+    width: 1000px;
+    top: -740px;
+    left: -290px;
+}
+/* history and info; */
+.seven{
+    font-size: 35px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1500px;
+}
+.eight{
+    font-size: 30px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 30px;
+    top: -1500px;
+}
+/* footer; */
+/* grey silk box; */
+.grey{
+    position: relative;
+    margin: 40px;
+    width: 1000px;
+    top: -770px;
+    left: -290px;
+    height: 350px;
+}
+/* encore footer; */
+.encore{
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: none;
+    margin: 40px;
+    left: 40px;
+    top: -1900px;
+}
+.encore a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+/* contact info; */
+.contact{
+    font-size: 35px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -1900px;
+}
+
+.phone{
+    font-size: 20px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -1900px;
+}
+
+.email{
+    font-size: 20px;
+    position: relative;
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #c9c9c8;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: -10px;
+    top: -1900px;
+}
+/* sybscribe link; */
+.subscribe{
+    font-size: 30px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 190px;
+    top: -2100px;    
+}
+.subscribe a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+/* newsletter link; */
+.newsletter{
+    font-size: 30px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 190px;
+    top: -2100px;   
+}
+
+.newsletter a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+/* media; */
+@media screen and (min-width: 768px) {
+    header {
+        min-height: 70px;
+        background-color: rgba(0, 0, 0,.4);
+    }
+    
+/* MAIN */
+.hero {
+    height: 400px;
+    background-image: url('../images/heropianotwo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    
+}
+
+h1 {
+    /* outline: 1px solid red; */
+    color: #D22D00;
+    width: 70%;
+    padding: 4% 1%;
+    font-size:80px;
+}
+/* encore link; */
+h2{
+    font-family: sinete, sans-serif;
+    position: relative;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration: none;
+    top:  -680px;
+    left: 110px;
+}
+h2 a{
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+}
+
+/* red banner text; */
+h3{
+    left: 70px;
+}
+/* piano image one; */
+.piano-one{
+    width: 1000px;
+    top: -225px;
+    left: -235px;
+}
+.one{
+    font-size: 35px;
+    left: 20px;
+    top: -450px;
+}
+.two{
+    font-size: 25px;
+    left: 40px;
+    top: -450px;
+}
+/* piano image 2; */
+.piano-two{
+    width: 1100px;
+    top: -400px;
+    left: -320px;
+}
+
+/* grades and info; */
+.three{
+    font-size: 35px;
+    left: 60px;
+    top: -800px;
+}
+.four{
+    font-size: 25px;
+    left: 30px;
+    top: -800px;
+}
+/* piano three; */
+.piano-three{
+    width: 1000px;
+    top: -570px;
+    left: -274px;
+}
+/* sheet music info; */
+
+.five{
+    font-size: 25px;
+    left: 30px;
+    top: -1150px;
+}
+.six{
+    font-size: 25px;
+    left: 15px;
+    top: -1150px;
+}
+/* piano four; */
+.piano-four{
+    width: 1000px;
+    top: -740px;
+    left: -274px;
+}
+/* history and info; */
+.seven{
+    font-size: 25px;
+    left: 30px;
+    top: -1500px;
+}
+.eight{
+    font-size: 20px;
+    left: 30px;
+    top: -1500px;
+}
+
+/* footer; */
+/* grey silk box; */
+.grey{
+    position: relative;
+    margin: 40px;
+    width: 1100px;
+    top: -770px;
+    left: -290px;
+    height: 350px;
+}
+/* encore footer; */
+.encore{
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: none;
+    margin: 40px;
+    left: 70px;
+    top: -1900px;
+}
+/* contact info; */
+.contact{
+    font-size: 35px;
+    left: -10px;
+    top: -1900px;
+}
+
+.phone{
+    font-size: 20px;
+    left: -10px;
+    top: -1900px;
+}
+
+.email{
+    font-size: 20px;
+    left: -10px;
+    top: -1900px;
+}
+/* sybscribe link; */
+.subscribe{
+    font-size: 30px;
+    left: 260px;
+    top: -2100px;    
+}
+/* newsletter link; */
+.newsletter{
+    font-size: 30px;
+    position: relative;
+    font-family: sinete, sans-serif;
+    color: #D22D00;  
+    text-decoration: none;
+    position: relative;
+    margin: 40px;
+    left: 260px;
+    top: -2100px;   
+}
+
+}
+@media screen and (min-width: 1024px){
+
+    /* encore link; */
+h2{
+    top:  -450px;
+    left: 230px;  
+}
+/* red banner text; */
+h3{
+    font-size: 70px;
+    top: -230px;
+    left: 60px;
+}
+/* piano image one; */
+.piano-one{
+    width: 700px;
+    left: -170px;
+    top: -200px;
+}
+/* learn piano and info; */
+.one{
+    font-size: 25px;
+    left: 340px;
+    top: -630px;
+}
+.two{
+    font-size: 20px;
+    left: 350px;
+    top: -640px;
+}
+/* piano image 2; */
+.piano-two{
+    width: 710px;
+    left: -39px;
+    top: -435px;
+}
+/* grades and info; */
+.three{
+    font-size: 30px;
+    left: 0px;
+    top: -1150px;
+}
+.four{
+    font-size: 20px;
+    left: 0px;
+    top: -1150px;
+}
+/* piano three; */
+.piano-three{
+    width: 710px;
+    left: -215px;
+    top: -681px;
+}
+/* sheet music info; */
+
+.five{
+    font-size: 20px;
+    left: 340px;
+    top: -1630px;
+}
+.six{
+    font-size: 15px;
+    left: 360px;
+    top: -1610px;
+}
+/* piano four; */
+.piano-four{
+    width: 710px;
+    left: -27px;
+    top: -915px;
+}
+/* history and info; */
+.seven{
+    font-size: 20px;
+    left: -20px;
+    top: -2100px;
+}
+.eight{
+    font-size: 15px;
+    left: -20px;
+    top: -2100px;
+}
+/* footer; */
+/* grey silk box; */
+.grey{
+    width: 800px;
+    top: -1045px;
+    left: -50px;
+    height: 260px;
+}
+/* encore footer; */
+.encore{
+    font-size: 70px;
+    left: 160px;
+    top: -2350px;
+}
+/* contact info; */
+.contact{
+    font-size: 35px;
+    left: 20px;
+    top: -2390px;
+}
+
+.phone{
+    font-size: 20px;
+    left: 20px;
+    top: -2390px;
+}
+
+.email{
+    font-size: 20px;
+    left: 20px;
+    top: -2390px;
+}
+/* sybscribe link; */
+.subscribe{
+    font-size: 30px;
+    left: 400px;
+    top: -2560px; 
+}
+/* newsletter link; */
+.newsletter{
+    font-size: 30px;
+    left: 400px;
+    top: -2560px;  
+}
+}
+@media screen and (min-width:1280px){
+
+    .hero {
+        width:100%;
+    }
+    h2{
+        top:  -450px;
+        left: 280px;  
+    }
+    /* red banner text; */
+h3{
+    font-size: 70px;
+    top: -230px;
+    left: 70px;
+}
+/* piano image one; */
+.piano-one{
+    width: 840px;
+    left: -210px;
+    top: -220px;
+}
+/* learn piano and info; */
+.one{
+    font-size: 30px;
+    left: 430px;
+    top: -680px;
+}
+.two{
+    font-size: 20px;
+    left: 470px;
+    top: -680px;
+}
+/* piano image 2; */
+.piano-two{
+    width: 840px;
+    left: -40px;
+    top: -480px;
+}
+/* grades and info; */
+.three{
+    font-size: 30px;
+    left: 0px;
+    top: -1250px;
+}
+.four{
+    font-size: 20px;
+    left: 0px;
+    top: -1250px;
+}
+/* piano three; */
+.piano-three{
+    width: 1000px;
+    left: -300px;
+    top: -767px;
+}
+}
